@@ -1,0 +1,153 @@
+/* Estilos CSS para las tarjetas de cómics */
+.comics-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .comic-card {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .comic-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .comic-card:nth-child(odd) {
+    background-color: #b90a0a;
+  }
+  
+  .comic-card:nth-child(even) {
+    background-color: #0e8f0e;
+  }
+  
+  .comic-card h2 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .comic-card p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .comic-card {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para el pie de página */
+  .footer-gray {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-gray {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para el encabezado */
+  .header-gray {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #Logo {
+    margin-right: auto;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Estilos para la sección de información */
+  .info-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .curiosities-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .curiosity-image {
+    flex: 1;
+    padding-right: 0px;
+  }
+  
+  .curiosity-text {
+    flex: 2;
+    margin-top: 10px;
+  }
+  
+  /* Estilos generales de navegación */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    ul {
+      text-align: center;
+    }
+  
+    li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  /* Estilo para el contenedor del video */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 100px;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .youtube-video {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

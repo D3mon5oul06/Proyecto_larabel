@@ -1,0 +1,75 @@
+/* Estilos para la clase "acerca" */
+/* Estilos para el encabezado */
+.header-gray {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilos para el logotipo */
+  #Logo {
+    margin-right: auto;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Estilos generales del cuerpo */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer-gray {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para los enlaces en el pie de página */
+  .footer-gray a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+.acerca {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .acerca h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .acerca h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .acerca p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para el encabezado */
+  .header-gray {
+    /* Estilos del encabezado... */
+  }
+  
+  /* Estilos para el pie de página */
+  .footer-gray {
+    /* Estilos del pie de página... */
+  }
+  

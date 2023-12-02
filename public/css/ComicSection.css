@@ -1,0 +1,145 @@
+.footer-gray {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-gray {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para el encabezado */
+.header-gray {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Logo {
+  margin-right: auto;
+  margin-left: 20px;
+  width: 100px;
+  height: auto;
+}
+
+/* Estilos para la sección de información */
+.info-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.curiosities-section {
+  display: flex;
+  align-items: center;
+}
+
+.curiosity-image {
+  flex: 1;
+  padding-right: 0px;
+}
+
+.curiosity-text {
+  flex: 2;
+  margin-top: 10px;
+}
+
+/* Estilos generales de navegación */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Estilos para los enlaces en el pie de página */
+.footer-gray a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.comics-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+  
+  .comic-card {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .comic-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .comic-card h2 {
+    color: #fcfbfb;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .comic-card p {
+    color: #f8f6f6;
+    font-size: 14px;
+  }
+  
+  /* Estilos para la sección de "Civil war" */
+  .comic-card:nth-child(odd) {
+    background-color: #050404; /* Color de fondo para las secciones impares */
+  }
+  
+  /* Estilos para la sección de "Secret wars" */
+  .comic-card:nth-child(even) {
+    background-color: #070707; /* Color de fondo para las secciones pares */
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .comic-card {
+      width: 100%;
+    }
+  }
+  
